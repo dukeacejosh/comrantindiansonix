@@ -1,0 +1,33 @@
+{
+    "triggerbot": {
+        "trigger_hotkey": "0x06",
+        "triggerbot_delay": 0.0168,
+        "triggerbot_cooldown": 0.05
+    },
+    "aimbot": {
+        "aimbot_hotkey": "0xA0",
+        "x_fov": 60,
+        "y_fov": 60,
+        "ingame_sens": 0.85,
+        "smoothing_value": 2,
+        "custom_offset" : 0.31,
+        "only_x_axis" : 0
+    },
+    "flickbot":{
+        "flickbot_hotkey" : "0x05",
+        "recoil_value": 0.0,
+        "Recoil Values that you can use": "\/ Given Below \/",
+        "vandal": 0.1626,
+        "phantom": 0.1834,
+        "guardian": 0.0876,
+        "bulldog": 0.1053,
+        "sherrif": 0.0667,
+        "ghost": 0.1126,
+        "none" : 0.0
+    },
+    "extra":{
+        "reload_config_keybind": "0xA5",
+        "anti_astra_smoke": false,
+        "keybinds based on https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes": true
+    }
+}

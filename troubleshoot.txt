@@ -1,0 +1,9 @@
+"Error: [WinError 10061] No connection could be made because the target machine actively refused it"
+solution : run 'mousemovementv2.py' and keep it running in the background
+
+
+'mousemovementv2.py' just opens and closes or gives you error
+"[-] Device Vendor ID: Unspecified, Product ID: Unspecified Pingcode: Unspecified not found"
+solution : you have not spoofed your arduino to match you mouse, watch the setup tutorial or contact on discord
+
+any sort of key/license error should be reported
