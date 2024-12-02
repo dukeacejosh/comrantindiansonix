@@ -1,0 +1,37 @@
+#######################################################
+Spoof setup
+
+before doing all this you need to have arduino IDE installed on your pc
+reset your arduino leonardo (just upload a new sketch)
+go into ArduinoCode folder
+open arduinospoofer.exe as admin
+select option 1 'spoof'
+(to check hid and pid, go into device manager, under "mice and ..." select your mouse and go to properties > details
+click on the dropdown arrow and select hardware ID, VID_(your vid)&PID_(your pid))
+now select your mouse in arduinospoofer and spoof
+
+
+credit to secnob on discord
+
+
+#######################################################
+
+Uploading code
+
+connect your arduino using usb cable
+double click on the ArduinoCode.ino to open it in arduino IDE
+click on tools and select board as 'USP Input...' and port to your leonardo
+click on upload and wait for it to say 'done uploading.'
+you com port will not be there after uploading
+(to revert contact sonixaep on discord)
+
+#######################################################
+
+Running COMRANT (no comrant)
+
+install python 3.10.x
+open cmd in the same directory as the .py files
+make sure you have your game closed and arduino spoofed
+run main.py and follow the steps
+
+#######################################################
